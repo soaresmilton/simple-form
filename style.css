@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form {
+    background: #667180;
+    width: 500px;
+    border-radius: 15px;
+    height: 400px;
+    padding: 25px;
+    margin: 50px auto 50px;
+}
+
+form h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+
+#touch {
+    color: #5CE450;
+}
+
+label {
+    color: #f2f2f2;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+input, textarea {
+    width: 100%;
+    height: 2rem;
+    padding-left: 5px;
+}
+
+textarea {
+    height: 3rem;
+}
+
+#buttons-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    flex-grow: 1;
+    width: 125px;
+    margin: 25px;
+    border: none;
+
+    border-radius: 15px;
+    height: 2rem;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+button#send {
+    background: #5CE450;
+    color: white;
+}
+
+button#reset {
+    background: #f12613;
+    color: #f2f2f2;
+}
